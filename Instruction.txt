@@ -1,0 +1,15 @@
+The runnable distribution is packed as AffirmSolution.jar. The jar by default has the small input files included in the distribution in them.
+
+Once the distribution is executed the library generates two output files (assignments.csv & yields.csv) in the same directory as where the distribution is kept at.
+
+
+To Run the distribution: 
+
+JDK Requirements: JDK 16
+Command to run(use small files in distribution) : java -jar AffirmSolution.jar
+
+Command to run(use custom file locations in distribution) : java -jar AffirmSolution.jar "<facility file location>/facilities.csv" "<covenants file location>covenants.csv" "<loans file location>/loans.csv"
+
+
+The full source code is included in AffirmLoanSolution.zip.
+In order to view in IDE, unzip and import as gradle project in to a desired Java IDE.
